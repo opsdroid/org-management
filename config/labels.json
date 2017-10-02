@@ -1,0 +1,21 @@
+[
+    {"name": "advanced", "color": "e99695"}, 
+    {"name": "beginner", "color": "0e8a16"}, 
+    {"name": "breaking", "color": "0052cc"}, 
+    {"name": "bug", "color": "ee0701"}, 
+    {"name": "documentation", "color": "fbca04"}, 
+    {"name": "duplicate", "color": "cccccc"}, 
+    {"name": "enhancement", "color": "84b6eb"}, 
+    {"name": "good first issue", "color": "7057ff"},
+    {"name": "hacktoberfest", "color": "b60205"}, 
+    {"name": "help wanted", "color": "33aa3f"}, 
+    {"name": "installation/packaging", "color": "fef2c0"}, 
+    {"name": "intermediate", "color": "fef2c0"}, 
+    {"name": "invalid", "color": "e6e6e6"},
+    {"name": "low hanging fruit", "color": "1d76db"}, 
+    {"name": "parser", "color": "c2e0c6"}, 
+    {"name": "question", "color": "cc317c"}, 
+    {"name": "release", "color": "5319e7"}, 
+    {"name": "skill developent", "color": "d4c5f9"}, 
+    {"name": "wontfix", "color": "ffffff"}
+]
