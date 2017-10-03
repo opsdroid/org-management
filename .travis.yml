@@ -4,4 +4,4 @@ python:
   - "3.5"
 
 script: 
-  - python scripts/sync-tags.py
+  - python scripts/sync-labels.py
