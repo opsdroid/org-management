@@ -17,5 +17,6 @@
     {"name": "question", "color": "cc317c"}, 
     {"name": "release", "color": "5319e7"}, 
     {"name": "skill developent", "color": "d4c5f9"}, 
-    {"name": "wontfix", "color": "ffffff"}
+    {"name": "wontfix", "color": "ffffff"},
+    {"name": "test", "color": "ffffff"}
 ]
