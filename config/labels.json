@@ -16,6 +16,7 @@
     {"name": "invalid", "color": "e6e6e6"},
     {"name": "low hanging fruit", "color": "1d76db"}, 
     {"name": "parser", "color": "c2e0c6"}, 
+    {"name": "proposal", "color": "5bc1c0"},
     {"name": "question", "color": "cc317c"}, 
     {"name": "release", "color": "5319e7"}, 
     {"name": "skill developent", "color": "d4c5f9"}, 
