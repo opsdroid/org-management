@@ -11,7 +11,6 @@
     {"name": "database", "color": "2e0177"}, 
     {"name": "enhancement", "color": "84b6eb"}, 
     {"name": "good first issue", "color": "7057ff"},
-    {"name": "hacktoberfest", "color": "b60205"},
     {"name": "help wanted", "color": "33aa3f"}, 
     {"name": "installation/packaging", "color": "fef2c0"}, 
     {"name": "intermediate", "color": "fef2c0"}, 
