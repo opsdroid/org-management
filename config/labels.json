@@ -23,5 +23,6 @@
     {"name": "skill developent", "color": "d4c5f9"}, 
     {"name": "stale", "color": "ffffff"},
     {"name": "tests", "color": "cfd600"},
-    {"name": "wontfix", "color": "ffffff"}
+    {"name": "wontfix", "color": "ffffff"},
+    {"name": "hacktoberfest", "color": "b320dd"}
 ]
