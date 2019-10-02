@@ -39,7 +39,7 @@ def parse_args(argv):
 
 
 def load_labels(label_config):
-    with open(label_config) as data_file:    
+    with open(label_config) as data_file:
         data = json.load(data_file)
 
     return data
@@ -64,12 +64,19 @@ def get_repos(org):
 
 
 def get_current_labels(repo):
-    response = SESSION.get('{}/labels'.format(repo))
-    if response.status_code < 300:
-        return [repo for repo in response.json()]
-    else:
-        print("Unable to get repos from GitHub")
-        sys.exit(1)
+    page = 1
+    last_page = 1
+    labels = []
+    while page <= last_page:
+        response = SESSION.get('{}/labels?page={}'.format(repo, page))
+        if response.status_code < 300:
+            _, last_page_header = response.headers['Link'].split(',')
+            last_page = int(re.search(r"page\=([0-9+])", last_page_header).group(1))
+            labels = labels +  [label for label in response.json()]
+        else:
+            print("Unable to get labels from GitHub")
+            sys.exit(1)
+    return labels
 
 
 def add_label(repo, new_label):
