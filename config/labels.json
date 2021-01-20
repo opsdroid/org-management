@@ -2,6 +2,7 @@
     {"name": "advanced", "color": "e99695"}, 
     {"name": "beginner", "color": "0e8a16"}, 
     {"name": "breaking", "color": "0052cc"}, 
+    {"name": "infrastructure", "color": "fef2c0"}, 
     {"name": "bug", "color": "ee0701"}, 
     {"name": "connector", "color": "cca31e"}, 
     {"name": "connector/matrix", "color": "cca31e"}, 
